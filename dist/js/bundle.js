@@ -15,7 +15,7 @@
   \*************************/
 /***/ (() => {
 
-eval("(function(a, b) { \r\n    console.log(a,b);\r\n })(\"hello\", \"world\");\n\n//# sourceURL=webpack://newtechnology/./src/js/index.js?");
+eval("var name = \"muhammet cokymana\";\n\nvar sayHello = function sayHello(ad) {\n  console.log(ad);\n};\n\nsayHello(name);\n\n//# sourceURL=webpack://newtechnology/./src/js/index.js?");
 
 /***/ })
 

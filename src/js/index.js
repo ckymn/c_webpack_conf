@@ -1,3 +1,8 @@
-(function(a, b) { 
-    console.log(a,b);
- })("hello", "everyone");
+let name = "muhammet cokymana";
+
+const sayHello = (ad) => {
+    console.log(ad);
+}
+
+
+sayHello(name)
