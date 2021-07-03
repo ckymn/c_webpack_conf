@@ -18,6 +18,7 @@ module.exports = {
     watch: true,
     plugins: [
          new HtmlWebpackPlugin({
+             title: "Development",
              template: path.resolve(__dirname, "src","index.html")
          })
     ],
